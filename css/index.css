@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+#wrapper {
+  width: 100%;
+  height: 100vh;
+}
+#header {
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  background-color: gray;
+}
+#header> h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: indianred;
+  font-size: 50px;
+}
+#menu {
+  list-style: none;
+  display: flex;
+  padding-top: 30px;
+}
+#menu .item {
+  margin: 0px 20px;
+}
+#menu .item a {
+  color: aqua;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+#user {
+  display: flex;
+
+}
+#user img {
+  width: 30px;
+}
+#user .items {
+  margin-left: 22px;
+}
+/* ---------------------------- */
+.ghichu{
+  text-align: center;
+  font-size: 40px;
+  background-color: rgba(128, 128, 128, 0.557);
+  padding: 10px;
+}
+/* ---------------------------- */
+article {
+  padding-top: 50px;
+  min-height: 900px;
+  float: left;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+article > h1 {
+  text-align: center;
+}
+article .image:hover {
+  transform: scale(1.1);
+
+} 
+
+.col-25 {
+  width: 25%;
+}
+.prod {
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+.prod > .name {
+  font-variant: small-caps;
+  color: orangered;
+}
+.prod > a > .image {
+  max-width: 100%;
+  padding: 30px;
+  position: relative;
+  border-radius: 70px;
+}
+.prod > a {
+  position: relative;
+  color: rgb(12, 89, 214);
+  text-decoration: none;
+}
+.prod > .price {
+  bottom: 10px;
+  text-align: center;
+  font-family: Impact;
+  font-size: 15px;
+  color: black;
+}
+.add-to-cart {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.add-to-cart:hover {
+  background-color: #e74c3c;
+}
+/* ------------------- */
+/* aside {
+  float: right;
+  min-height: 900px;
+  width: 20%;
+  background-color: #44444412;
+  padding-top: 50px;
+}
+.vmenu {
+  padding: 0px;
+  margin: 10px;
+  list-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 2px gray;
+}
+.vmenu > h1{
+  text-align: center;
+  color: rgba(0, 255, 255, 0.409);
+  background-color: antiquewhite;
+}
+.vmenu a {
+  background: url("../hinh/tronblue.png") no-repeat 3px center;
+  display: block;
+  border-bottom: 1px dotted orangered;
+  color: orangered;
+  font-size: larger;
+  text-decoration: none;
+  padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover {
+  background: url("../hinh/tích.png") no-repeat 5px center;
+  border-bottom: 1px dotted white;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+} */
+/* ------------------- */
+ footer {
+  border-top: 5px double aqua;
+  color: aqua;
+  line-height: 50px;
+  background-color: #555555c3;
+  text-align: center;
+  clear: both;
+}

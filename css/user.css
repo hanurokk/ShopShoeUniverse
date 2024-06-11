@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../hinh/brglogin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-dangnhap {
+    padding: 20px;
+    width: 50%;
+    max-width: 400px;
+    margin: 0 0px;
+}
+
+.form-dangnhap h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: indianred;
+}
+
+.form-dangnhap label {
+    display: block;
+    margin-bottom: 5px;
+    color: aqua;
+}
+
+.form-dangnhap input {
+    color:yellow;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border:4px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.form-dangnhap button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-dangnhap button:hover {
+    background-color: #555;
+}
+.form-container h2 {
+    font-size: 24px;
+    color: indianred;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: aqua;
+}
+
+.form-container input {
+    color: yellow;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border:4px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.form-container button:hover {
+    background-color: #555;
+}
+.login{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.login a{
+    color: aqua;
+}
+.login a:hover{
+    color: yellow;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/spchitiet.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <a href="index.html" class="logo"
+          ><img src="../hinh/image.png" alt="Shoes Universe"
+        /></a>
+        <h1>Shoes Universe</h1>
+        <div id="menu">
+          <div class="item"><a href="../index.html">Trang chủ</a></div>
+          <div class="item"><a href="GiayNam.html">Giày Nam</a></div>
+          <div class="item"><a href="GiayNu.html">Giày Nữ</a></div>
+          <div class="item"><a href="phukien.html">Phụ kiện</a></div>
+          <div class="item"><a href="lienhe.html">Liên hệ</a></div>
+          <div id="user">
+            <a href="login.html"
+              ><div class="items"><img src="../hinh/user.png" alt="User" /></div
+            ></a>
+            <a href="giohang.html"
+              ><div class="items">
+                <img src="../hinh/giohang.png    " alt="Giỏ hàng" /></div
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="product-detail">
+          <div class="product-image">
+            <img src="../hinh/giaynam (2).jpg" alt="Tên sản phẩm" />
+          </div>
+          <div class="product-info">
+            <h2>Tên sản phẩm</h2>
+            <p class="price">245.000 VNĐ</p>
+            <p class="description">
+              Giày được thiết kế dáng buộc dây năng động,mặt giày sử dụng chất
+              liệu da tổng hợp được may viền chỉ cách điệu, phối màu thời trang.
+              Đặc biệt sản phẩm sử dụng chất liệu cao cấp có độ bền tối ưu giúp
+              bạn thoải mái trong mọi hoàn cảnh. Giày thoáng khí cả mặt trong
+              lẫn mặt ngoài khiến người mang luôn cảm thấy dễ chịu dù hoạt động
+              trong thời gian dài.
+            </p>
+            <label>Chọn kích cỡ:</label>
+            <select class="size" name="size">
+              <option value="38">38</option>
+              <option value="39">39</option>
+              <option value="40">40</option>
+              <option value="41">41</option>
+            </select>
+            <br />
+            <label for="soluong">Số lượng:</label>
+            <input
+              class="number"
+              type="number"
+              name="soluong"
+              value="1"
+              min="1"
+            />
+            <br />
+            <a href="giohang.html"
+              ><button class="add-to-cart">Mua ngay</button></a>
+          </div>
+        </div>
+      </div>
+      <footer>© Đào Hữu Công</footer>
+    </div>
+  </body>
+</html>
